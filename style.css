@@ -1,0 +1,94 @@
+* {
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-align: center;
+  font-size: 34px;
+  font-stretch: expanded;
+  font-weight: 1200;
+  font-style: normal;
+  color: #ff9500;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+#Start {
+  padding: 30px 40px;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 5% auto;
+}
+
+button:hover {
+  background-color: #e37316;
+  box-shadow: 0 0 10px 0.1px #ffffff;
+}
+
+body {
+  background-color: #000000;
+}
+
+
+
+button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: large;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0.1px #ff9500;
+  margin-right: 2px;
+  background-color: #ff9500;
+  color: black;
+}
+
+.select {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.que {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hlo {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #ff9500;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0.1px #ff9500;
+}
+
+
+
+
+
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
